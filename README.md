@@ -9,6 +9,10 @@
 [travis]: http://travis-ci.org/SavvySoftWorksLLC/omniauth-shootproof
 [gemnasium]:https://gemnasium.com/github.com/SavvySoftWorksLLC/omniauth-shootproof
 
+Shootproof API Docs:
+- Auth: https://developer.shootproof.com/authdocs
+- Actions: https://developer.shootproof.com/apidocs
+
 This gem contains an OmniAuth strategy for Shootproof. It relies on the OAuth2 and OmniAuth-OAuth2 gems. Shootproof API does not conform exactly to the standard set forth with the base OAuth2 Client so some changes include:
 - Access Tokens require the same params as the original Authorization request. The confusing part is the Token request is required POST so query string params are not included by default.
 - The Access token requires the `redirect_uri` to match the `callback_url` from the Authorization request. Omniauth by default provides the query params from the Authorization callback in future `redirect_uri` params. This will no longer match so the query string is ditched.
