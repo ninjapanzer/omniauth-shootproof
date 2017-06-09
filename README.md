@@ -38,3 +38,7 @@ The `info` response will contain the following hash
 ```
 
 For convenience the `uid` will be populated with the Access Token
+
+Paul Scarrone paul@savvysoftworks.com
+Gary Newsome gary@savvysoftworks.com
+SavvySoftWorks LLC.
